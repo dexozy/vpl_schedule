@@ -116,15 +116,6 @@ $$
 
 ---
 
-## **SAT Encoding Notes**
-
-* $a \Rightarrow b$ becomes $\neg a \lor b$
-* $\neg(a \wedge b)$ becomes $\neg a \lor \neg b$
-* “Exactly one” = (at least one) + (pairwise at most one)
-* Period constraint uses a cardinality encoding (e.g., sequential counter)
-
----
-
 ## Performance Analysis
 
 The solver's performance has been analyzed for different team sizes:
